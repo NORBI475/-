@@ -1,0 +1,800 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.hamburger {
+    position: fixed;
+    z-index: 99;
+    background: white;
+    border: none;
+    cursor: pointer;
+    top: -1.3rem;
+    right: 1rem;
+    position: relative;
+    margin-left: 250px;
+}
+  
+.menu {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 220px;
+    height: 100%;
+    list-style: none;
+    background: #2D2D2D;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-right: 0.3vw solid rgb(255, 0, 0);
+}
+  
+.close {
+    position: absolute;
+    border: none;
+    color: white;
+    cursor: pointer;
+    top: 1rem;
+    right: 1rem;
+}
+
+.menu:target {
+  transform: translateY(0);
+}
+
+.material-icons a{
+    display: flex;
+
+}
+
+.aaaaa{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sss{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.ssss{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.sss a{
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.sss svg{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: black;
+}
+
+.dde{
+    display: flex;
+    margin-left: 70px;
+    margin-top: -340px;
+}
+
+.whitee{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    display: flex;
+}
+
+.redd{
+    display: flex;
+    font-size: 36px;
+    color: red;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    margin-top: -22px;
+}
+
+
+
+
+
+
+
+
+nav{
+    width: 100%;
+    height: 55px;
+    background-color: #2D2D2D;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav svg{
+    color: rgb(255, 255, 255);
+    margin-left: -180px;
+}
+
+.margin1{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.white{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+}
+
+.red{
+    font-size: 36px;
+    color: red;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+}
+
+
+
+.logo-panel{
+    margin-left:  70px;
+    margin-top: -15px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;    
+    margin-top: -32px;
+}
+
+.input input{
+    width: 350px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 50px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+}
+
+.login{
+    width: 60px;
+    height: 27px;
+    background-color: white;
+    text-align: center;
+    margin-left: 1050px;
+    margin-top: -28px;
+    border-radius: 6px;
+}
+
+.input input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+
+header{
+    width: 100%;
+    height: 900px;
+    background-color: #2D2D2D;
+}
+
+.zagalovok p{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    text-align: center;
+}
+
+.zagalovok{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 600px;
+    height: 250px;
+}
+
+.blok1{
+    width: 320px;
+    height: 100px;
+    background-color: #473947;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    display: inline-block;
+
+}
+
+.blok1 a{
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    padding-left: 220px;
+    
+}
+
+.blok1 p{
+    width: 300px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.adap{
+    width: 644px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #473947;
+    padding-top: 15px;
+}
+
+footer a{
+    width: 450px;
+    height: 250px;
+    text-decoration: none;
+    color: black;
+    margin-right: -40px;
+    margin-left: 60px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    display: inline;
+}
+
+.text a{
+    margin-top: 135px;
+    position: relative;
+
+}
+
+.text{
+    width: 100%;
+    height: 50px;
+    background-color: #473947;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.icon{
+    width: 170px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 1500px;
+    margin-top: -55px;
+}
+
+.icon p{
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: -50px;
+}
+
+.icon img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon1{
+    width: 170px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 1300px;
+    margin-top: -70px;
+}
+
+.icon1 p{
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: medium;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: -50px;
+}
+
+.icon1 img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+@media (max-width: 655px){
+
+    .zagalovok{
+        padding-top: 50px;
+        margin: 0 auto;
+        width: 400px;
+        height: 300px;
+    }
+
+    .adap{
+        width: 318px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    header{
+        height: 1000px;
+    }
+}
+
+@media (max-width: 415px){
+
+    .zagalovok{
+        padding-top: 50px;
+        margin: 0 auto;
+        width: 300px;
+        height: 200px;
+    }
+
+    .zagalovok p{
+        font-size: 20px;
+    }
+
+    .adap{
+        width: 318px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    header{
+        height: 1000px;
+    }
+}
+
+
+
+@media (max-width: 1600px) {
+    .kartochka{
+        width: 500px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .section1{
+        width: 100%;
+        height: 1400px;
+        background-color: #2D2D2D;
+    }    
+
+    .kino{
+        margin-left: 600px;
+    }
+    
+    .margin4{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+}
+
+@media (max-width: 1440px) {
+    .logo-panel{
+        width: 800px;
+    }
+    
+    .kartochka{
+        width: 500px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .section1{
+        width: 100%;
+        height: 2000px;
+        background-color: #2D2D2D;
+    }    
+
+    .kino{
+        margin-left: 60%;
+    }
+
+    .logo-cinema{
+        margin-left: 250px;
+    }
+
+    .info{
+        margin-left: 0px;
+    }
+
+    .knopka{
+        margin-left: 0px;
+    }
+    
+    .margin4{
+        width: 800px;
+        justify-content: center;
+        margin-left: 25%;
+    }
+
+    .icon{
+        margin-left: 1000px;
+    }
+
+    .icon1{
+        margin-left: 800px;
+    }
+
+    .margin{
+        width: 100%;
+    }
+
+    .logo-panel{
+        margin-left: 50px;
+    }
+
+    .input{
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    .login{
+        margin-left: 850px;
+    }
+
+    .margin1{
+        width: 800px;
+        margin-left: 10%;
+    }
+    
+    .hamburger {
+    position: fixed;
+    z-index: 99;
+    background: white;
+    border: none;
+    cursor: pointer;
+    top: -1.4rem;
+    right: 2.5rem;
+    position: relative;
+    margin-left: 250px;
+    }
+  
+}
+
+
+@media (max-width: 1200px) {
+    .logo-panel{
+        width: 800px;
+    }
+    
+    .kartochka{
+        width: 500px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .section1{
+        width: 100%;
+        height: 2000px;
+        background-color: #2D2D2D;
+    }    
+
+    .kino{
+        margin-top: -420px;
+        margin-left: 60%;
+    }
+
+    .logo-cinema{
+        margin-left: 250px;
+    }
+
+    .info{
+        font-size: 16px;
+        width: 600px;
+        margin-left: 0px;
+    }
+
+    .knopka{
+        margin-left: 0px;
+    }
+    
+    .margin4{
+        width: 500px;
+        margin-left: 25%;
+    }
+
+    .icon{
+        margin-left: 850px;
+    }
+
+    .icon1{
+        margin-left: 650px;
+    }
+
+    .margin{
+        width: 900px;
+
+    }
+
+    .logo-panel{
+        margin-left: 50px;
+    }
+
+    .input{
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .login{
+        margin-left: 700px;
+    }
+
+    .margin1{
+        width: 800px;
+        margin-left: 10%;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .icon{
+        display: none;
+    }
+
+    .icon1{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+    .hamburger {
+        position: fixed;
+        z-index: 99;
+        background: white;
+        border: none;
+        cursor: pointer;
+        top: -1.4rem;
+        right: 5.5rem;
+        position: relative;
+        margin-left: 250px;
+        }
+    
+
+    .logo-panel{
+        width: 800px;
+    }
+    
+    .kartochka{
+        width: 500px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .section1{
+        width: 100%;
+        height: 2000px;
+        background-color: #2D2D2D;
+    }    
+
+    .kino{
+        margin-top: -420px;
+        margin-left: 50%;
+    }
+
+    .logo-cinema{
+        margin-left: 50px;
+    }
+
+    .info{
+        font-size: 16px;
+        width: 600px;
+        margin-left: -200px;
+    }
+
+    .knopka{
+        margin-left: -200px;
+    }
+    
+    .margin4{
+        width: 500px;
+        margin-left: 15%;
+    }
+
+    .icon{
+        margin-left: 850px;
+    }
+
+    .icon1{ 
+        margin-left: 650px;
+    }
+
+    .margin{
+        width: 600px;
+
+    }
+
+    .logo-panel{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .input{
+        width: 100%;
+        margin-left: -5 0px;
+    }
+
+    .login{
+        margin-left: 550px;
+    }
+
+    .margin1{
+        width: 500px;
+        margin-left: 10%;
+    }
+}
+
+
+
+
+@media (max-width: 765px) {
+    .hamburger {
+        position: fixed;
+        z-index: 99;
+        background: white;
+        border: none;
+        cursor: pointer;
+        top: -1.2rem;
+        right: 5.5rem;
+        position: relative;
+        margin-left: 250px;
+        }
+    
+
+    .logo-panel{
+        width: 800px;
+    }
+    
+    .kartochka{
+        width: 500px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-left: -50px;
+    }
+
+    .section1{
+        width: 100%;
+        height: 2000px;
+        background-color: #2D2D2D;
+    }    
+
+    .kino{
+        display: none;
+    }
+
+    .logo-cinema{
+        margin-left: 100px;
+    }
+
+    .info{
+        font-size: 16px;
+        width: 450px;
+        margin-left: -150px;
+    }
+
+    .knopka{
+        margin-left: -150px;
+    }
+    
+    .margin4{
+        width: 500px;
+        margin-left: 15%;
+    }
+
+    .icon{
+        margin-left: 850px;
+    }
+
+    .icon1{ 
+        margin-left: 650px;
+    }
+
+    .margin{
+        width: 100%;
+
+    }
+
+    .logo-panel{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .input{
+        display: none;
+    }
+
+    .login{
+        margin-top: -32px;
+        margin-left: 85%;
+    }
+
+    .margin1{
+        width: 500px;
+        margin-left: 10%;
+    }
+    .text a{
+        font-size: 15px;
+    }
+}
